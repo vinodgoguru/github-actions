@@ -1,0 +1,130 @@
+{
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "_links": {
+      "comments": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/issues/1/comments"
+      },
+      "commits": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/pulls/1/commits"
+      },
+      "html": {
+        "href": "https://github.com/vinodgoguru/github-actions/pull/1"
+      },
+      "issue": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/issues/1"
+      },
+      "review_comment": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/pulls/comments{/number}"
+      },
+      "review_comments": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/pulls/1/comments"
+      },
+      "self": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/pulls/1"
+      },
+      "statuses": {
+        "href": "https://api.github.com/repos/vinodgoguru/github-actions/statuses/16dd3e081579b040c15192d884a192d0a2d6c553"
+      }
+    },
+    "active_lock_reason": null,
+    "additions": 1,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "OWNER",
+    "auto_merge": null,
+    "base": {
+      "label": "vinodgoguru:main",
+      "ref": "main",
+      "repo": {
+        "allow_auto_merge": false,
+        "allow_forking": true,
+        "allow_merge_commit": true,
+        "allow_rebase_merge": true,
+        "allow_squash_merge": true,
+        "allow_update_branch": false,
+        "archive_url": "https://api.github.com/repos/vinodgoguru/github-actions/{archive_format}{/ref}",
+        "archived": false,
+        "assignees_url": "https://api.github.com/repos/vinodgoguru/github-actions/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/vinodgoguru/github-actions/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/vinodgoguru/github-actions/branches{/branch}",
+        "clone_url": "https://github.com/vinodgoguru/github-actions.git",
+        "collaborators_url": "https://api.github.com/repos/vinodgoguru/github-actions/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/vinodgoguru/github-actions/comments{/number}",
+        "commits_url": "https://api.github.com/repos/vinodgoguru/github-actions/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/vinodgoguru/github-actions/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/vinodgoguru/github-actions/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/vinodgoguru/github-actions/contributors",
+        "created_at": "2026-08-28T04:35:22Z",
+        "default_branch": "main",
+        "delete_branch_on_merge": false,
+        "deployments_url": "https://api.github.com/repos/vinodgoguru/github-actions/deployments",
+        "description": null,
+        "disabled": false,
+        "downloads_url": "https://api.github.com/repos/vinodgoguru/github-actions/downloads",
+        "events_url": "https://api.github.com/repos/vinodgoguru/github-actions/events",
+        "fork": false,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/vinodgoguru/github-actions/forks",
+        "full_name": "vinodgoguru/github-actions",
+        "git_commits_url": "https://api.github.com/repos/vinodgoguru/github-actions/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/vinodgoguru/github-actions/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/vinodgoguru/github-actions/git/tags{/sha}",
+        "git_url": "git://github.com/vinodgoguru/github-actions.git",
+        "has_discussions": false,
+        "has_downloads": false,
+        "has_issues": true,
+        "has_pages": false,
+        "has_projects": true,
+        "has_pull_requests": true,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/vinodgoguru/github-actions/hooks",
+        "html_url": "https://github.com/vinodgoguru/github-actions",
+        "id": 1349202565,
+        "is_template": false,
+        "is sue_comment_url": "https://api.github.com/repos/vinodgoguru/github-actions/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/vinodgoguru/github-actions/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/vinodgoguru/github-actions/issues{/number}",
+        "keys_url": "https://api.github.com/repos/vinodgoguru/github-actions/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/vinodgoguru/github-actions/labels{/name}",
+        "language": null,
+        "languages_url": "https://api.github.com/repos/vinodgoguru/github-actions/languages",
+        "license": null,
+        "merge_commit_message": "PR_TITLE",
+        "merge_commit_title": "MERGE_MESSAGE",
+        "merges_url": "https://api.github.com/repos/vinodgoguru/github-actions/merges",
+        "milestones_url": "https://api.github.com/repos/vinodgoguru/github-actions/milestones{/number}",
+        "mirror_url": null,
+        "name": "github-actions",
+        "node_id": "R_kgDOUGsyhQ",
+        "notifications_url": "https://api.github.com/repos/vinodgoguru/github-actions/notifications{?since,all,participating}",
+        "open_issues": 1,
+        "open_issues_count": 1,
+        "owner": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/286950125?v=4",
+          "events_url": "https://api.github.com/users/vinodgoguru/events{/privacy}",
+          "followers_url": "https://api.github.com/users/vinodgoguru/followers",
+          "following_url": "https://api.github.com/users/vinodgoguru/following{/other_user}",
+          "gists_url": "https://api.github.com/users/vinodgoguru/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/vinodgoguru",
+          "id": 286950125,
+          "login": "vinodgoguru",
+          "node_id": "U_kgDOERqC7Q",
+          "organizations_url": "https://api.github.com/users/vinodgoguru/orgs",
+          "received_events_url": "https://api.github.com/users/vinodgoguru/received_events",
+          "repos_url": "https://api.github.com/users/vinodgoguru/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/vinodgoguru/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/vinodgoguru/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/vinodgoguru",
+          "user_view_type": "public"
+        }
+      }
+    }
+  }
+}
