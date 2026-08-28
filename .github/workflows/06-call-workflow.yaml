@@ -5,7 +5,7 @@ on:
         - 'main'
 jobs:
   feature-pipeline:
-    uses: vinodgoguru/workflows/blob/main/.github/workflows/nodejs-eks-feature.yaml@main  # Reference local path if in the same repository.
+    uses: vinodgoguru/workflows/.github/workflows/nodejs-eks-feature.yaml@main  # Reference local path if in the same repository.
     with:
       project: 'roboshop' 
       component: 'catalogue'  
