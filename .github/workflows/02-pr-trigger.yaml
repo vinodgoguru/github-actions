@@ -1,0 +1,13 @@
+name: PR trigger
+# triggers
+on: 
+  pull_request:
+    types: [opened, reopened]
+jobs: # stages
+  my-job: # stage
+    runs-on: ubuntu-latest # agent, ubuntu-latest is github hosted runner
+    steps:
+      - name: event triggered data
+        run: |
+          cat "$GITHUB_EVENT_PATH"
+          echo "The action was: $(jq -r '.action' "$GITHUB_EVENT_PATH")"
