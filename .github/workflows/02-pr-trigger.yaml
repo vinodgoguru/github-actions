@@ -7,6 +7,7 @@ jobs: # stages
   my-job: # stage
     runs-on: ubuntu-latest # agent, ubuntu-latest is github hosted runner
     steps:
+    # this give us full data of the event triggered
       - name: event triggered data
         run: |
           cat "$GITHUB_EVENT_PATH"
