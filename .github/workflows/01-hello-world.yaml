@@ -1,0 +1,14 @@
+name: hello-world
+# triggers
+on: 
+  push:
+  workflow_dispatch:
+jobs: # stages
+  my-job: # stage
+    runs-on: ubuntu-latest # agent, ubuntu-latest is github hosted runner
+    steps:
+      - name: step-1
+        run: echo "Hello World!"
+
+      - name: step-2
+        run: echo "Lets work on Github Actions"
